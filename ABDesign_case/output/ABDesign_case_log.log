@@ -1,0 +1,99 @@
+
+
+    ABodyBuilder-ML                                    \\    //
+    An Antibody Modelling Protocol                      \\  //
+    Built by OPIG                                         ||
+                                                          ||
+        
+    ABodyBuilder-ML uses:
+        o ANARCI to annotate the antibody sequence.
+        o SAbDab to select templates for the framework regions.
+        o ABangle to predict the VH-VL orientation.
+        o ABlooper to model the CDR regions.
+        o PEARS to build side chains.
+
+Input parameters:
+Job name = ABDesign_case
+Job ID = ABDesign_case
+Heavy sequence = QVQLKESGPGLVAPSQSLSITCTVSGFPLTAYGVNWVRQPPGKGLEWLGMIWGDGNTDYNSALKSRLSISKDNSKSQVFLKMNSLQTDDTARYYCARDPYGSKPMDYWGQGTSVTVSS
+Light sequence = DIVMSQSPSSLVVSVGEKVTMSCKSSQSLLYSSNQKNFLAWYQQKPGQSPKLLIYWASTRESGVPDRFTGSGSGTDFTLTISSVKAEDLAVYYCQQYFRYRTFGGGTKLEIKRA
+
+Started modelling
+
+Using anarci to annotate the target sequences
+Heavy variable domain identified in heavy sequence
+Species identified as mouse
+QVQLKESGPGLVAPSQSLSITCTVSGFPLTAYGVNWVRQPPGKGLEWLGMIWGDGNTDYNSALKSRLSISKDNSKSQVFLKMNSLQTDDTARYYCARDPYGSKPMDYWGQGTSVTVSS
+**********************************************************************************************************************
+Trimming heavy sequence to the variable domain (*) only.
+Kappa variable domain identified in light sequence
+Species identified as mouse
+DIVMSQSPSSLVVSVGEKVTMSCKSSQSLLYSSNQKNFLAWYQQKPGQSPKLLIYWASTRESGVPDRFTGSGSGTDFTLTISSVKAEDLAVYYCQQYFRYRTFGGGTKLEIKRA
+****************************************************************************************************************--
+Trimming light sequence to the variable domain (*) only.
+
+Writing the anarci annotation to file
+Done. See ABDesign_case/alignments/target_numbering.txt
+
+Choosing framework templates
+Chose 1a7n chain H with sequence identity over heavy chain framework of 0.97
+Chose 5hdq chain L with sequence identity over light chain framework of 0.99
+
+Predicting the orientation
+Using the angles HL=-55.83, HC1=71.31, HC2=121.98, LC1=123.20, LC2=83.55, dc=16.11 inherited from structure 6cxy_H_L_0 with Fv sequence identity 0.85
+Assembling the framework template
+
+Using ABangle to orientate the template chains
+Detecting and building disulphide bridges first, as necessary...
+
+Detecting and building unimodal rotamers...
+
+Building remaining rotamers...
+
+Precomputing energies of possible rotamers...
+
+Running DEE...
+
+Cycle: 1
+
+Cycle: 2
+
+Cycle: 3
+
+Cycle: 4
+
+Cycle: 5
+
+Cycle: 6
+
+Cycle: 7
+
+Cycle: 8
+
+Cycle: 9
+
+Cycle: 10
+
+Cycle: 11
+
+Cycle: 12
+
+Cycle: 13
+
+Building an interaction graph...
+
+Detecting and searching biconnected components...
+
+Solving remaining clusters...
+
+Filling in remaining gaps...
+
+Position H114  (PRO) not predicted.
+
+
+
+Predicting side chains with PEARS
+
+Writing modelling report
+Renumbering model files with the imgt numbering scheme
+

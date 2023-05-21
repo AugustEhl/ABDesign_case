@@ -1,0 +1,2 @@
+query_name	model_rank	model_file	refinement_method
+ABDesign_case	1	/data/sites/opig/htdocs/webapps/sabdab-sabpred-new/flask_webfront/repository/20230520_0322270/ABDesign_case/output/framework+ABL_cdrs.pears.pdb	PEARS
